@@ -10,11 +10,7 @@ export default defineConfig({
     },
     environment: "jsdom",
     globals: true,
-    setupFiles: [
-      "node_modules/@testing-library/jest-dom/extend-expect",
-      "./jest-dom-setup.ts",
-    ],
-    //transformMode: { web: [/\.[jt]sx?$/] },
+    setupFiles: ["./jest-dom-setup.ts"],
   },
   resolve: {
     conditions: ["development", "browser"],
