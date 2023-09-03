@@ -14,7 +14,7 @@ export default defineConfig({
       "node_modules/@testing-library/jest-dom/extend-expect",
       "./jest-dom-setup.ts",
     ],
-    transformMode: { web: [/\.[jt]sx?$/] },
+    //transformMode: { web: [/\.[jt]sx?$/] },
   },
   resolve: {
     conditions: ["development", "browser"],
