@@ -7,7 +7,7 @@
     "start": "solid-start start",
     "test": "vitest run",
     "test-watch": "vitest",
-    "test-ui": "vitest --ui",
+    "test-ui": "vitest --ui --api 9527",
     "coverage": "vitest run --coverage"
   },
   "devDependencies": {
