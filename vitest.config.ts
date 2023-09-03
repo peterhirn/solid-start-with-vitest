@@ -14,6 +14,15 @@ export default defineConfig({
       },
     },
     setupFiles: ["./jest-dom-setup.ts"],
+    reporters: ["basic", "junit"],
+    outputFile: {
+      junit: "junit.xml"
+    },
+    coverage: {
+      all: true,
+      reporter: ["text", "cobertura"],
+      include: ["src/**"]
+    }
   },
   resolve: {
     conditions: ["development", "browser"],
