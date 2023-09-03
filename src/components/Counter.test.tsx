@@ -1,4 +1,3 @@
-import { describe, it, expect} from "vitest"
 import { fireEvent, render } from "@solidjs/testing-library";
 import Counter from "./Counter";
 
