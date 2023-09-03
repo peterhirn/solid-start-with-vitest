@@ -9,7 +9,7 @@ export default defineConfig({
     deps: {
       optimizer: {
         web: {
-          include: ["src/**/*.tsx?"],
+          include: [],
         },
       },
     },
