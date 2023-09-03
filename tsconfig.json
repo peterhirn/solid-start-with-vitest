@@ -13,5 +13,8 @@
       "~/*": ["./src/*"]
     }
   },
+  "include": [
+    "./jest-dom-setup.ts"
+  ],
   "types": ["vitest"]
 }

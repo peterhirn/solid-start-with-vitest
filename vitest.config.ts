@@ -12,7 +12,7 @@ export default defineConfig({
     globals: true,
     setupFiles: [
       "node_modules/@testing-library/jest-dom/extend-expect",
-      "./setupVitest.js",
+      "./jest-dom-setup.ts",
     ],
     transformMode: { web: [/\.[jt]sx?$/] },
   },
